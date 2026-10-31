@@ -50,7 +50,10 @@ if [[ "${WRT_CONFIG,,}" == *"ipq60"* ]]; then
 	echo "CONFIG_PACKAGE_kmod-sctp=y" >> ./.config
 	echo "CONFIG_PACKAGE_kmod-sctp-diag=y" >> ./.config
 	echo "CONFIG_PACKAGE_luci-app-dockerman=y" >> ./.config
-	echo "CONFIG_PACKAGE_luci-app-openclash=y" >> ./.config
+	echo "CONFIG_PACKAGE_luci-app-openclash=y" >> ./.config	
+	echo "CONFIG_PACKAGE_luci-app-taskplan=y" >> ./.config
+	echo "CONFIG_PACKAGE_luci-app-adguardhome=y" >> ./.config
+	
 #
 # Zoneinfo
 #
